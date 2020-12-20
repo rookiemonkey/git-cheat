@@ -23,6 +23,13 @@ These bash scripts doesn't handle error that good yet eg: scenarios like not pas
 
 ## AVAILABLE COMMANDS
 
+* ```$ glog```
+    * short-hand for git log with  nice format
+    * PARAMS:
+        * <i>no parameter</i>
+        
+</br>
+
 * ```$ gbadd arg1```
     * creates a new branch switch to it
     * lists all the branches available upon creating a new one
