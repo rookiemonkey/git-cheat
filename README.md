@@ -12,7 +12,7 @@ These bash scripts doesn't handle error that good yet eg: scenarios like not pas
 #### NOTE: you can change the destination file on import.sh, however, please be aware that you also need to modify the $PATH variable
 
 1. execute the import.sh
-> $ ./import.sh
+```$ ./import.sh```
 
 
 ## USAGE AND ADDING A NEW BASH FILE
@@ -20,20 +20,18 @@ These bash scripts doesn't handle error that good yet eg: scenarios like not pas
 #### NOTE: these scripts uses bash as interpreter
 
 1. create a shell file (filename.sh) inside ```./src```
-> $ touch filename.sh
+```$ touch filename.sh```
 
 2. modify the permissions of the file to be executable
-> $ sudo chmod +x filename.sh
+```$ sudo chmod +x filename.sh```
 
 3. move the file on ```/usr/bin```
 
 4. exit and respawn your terminal.
 
-5. invoke the bash script using its file name anywhere.
-> $ filename.sh
-> // if you wanted to execute it without .sh
-> // just move it ot /usr/bin as filename w/o .sh
-> // however, make sure permission  was changed!
+5. invoke the bash script using its file name anywhere. NOTE: if you wanted to execute it without .sh just move it ot /usr/bin as filename w/o .sh. however, make sure permission  was changed!
+```$ filename.sh```
+
 
 ## Author: <i>Kevin Roi R. Basina</i>
 <a href="https://github.com/rookiemonkey">
