@@ -5,5 +5,5 @@
 #   - 1st: branch name
 
 git checkout -b $1;
-git branch -a;
+git branch -vva;
 echo "BRANCH $1 has been added and switched to $1 branch";

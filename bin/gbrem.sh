@@ -5,5 +5,5 @@
 #   - 1st: branch name
 
 git branch -d $1;
-git branch -a;
+git branch -vva;
 echo "BRANCH $1 has been removed";
